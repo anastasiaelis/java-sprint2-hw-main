@@ -30,9 +30,6 @@ public class Check {
         }
         System.out.println("Самый прибыльный товар "+nameOfMaxEar+", заработали "+maxEarn+" рублей.");
         System.out.println("Самая большая трата была "+maxExp+" рублей за "+nameOfMaxExp);
-
-
-
     }
     void sverka(MonthlyReport f, YearReport y){
         String [] months={"январь","февраль","март"};

@@ -7,4 +7,5 @@ public class Record {
         this.quantity=quantity;
         this.price=price;
     }
+
 }

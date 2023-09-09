@@ -51,7 +51,6 @@ public class ReportEngine {
             yearReport.month=new ArrayList<>();
             yearReport.expenses=new ArrayList<>();
             yearReport.earnings=new ArrayList<>();
-
             for (String string:strings){
 
                 String [] split=string.split(",");
