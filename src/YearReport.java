@@ -1,9 +1,7 @@
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class YearReport {
-    ReportEngine reportEngine = new ReportEngine();
     int year;
-    ArrayList<Integer>  month;
-    ArrayList<Integer>  expenses;
-    ArrayList<Integer>  earnings;
+    HashMap<Integer, Integer> yearExpenses=new HashMap<>();
+    HashMap<Integer, Integer> yearEarnings=new HashMap<>();
 }
